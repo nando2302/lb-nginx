@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: nando2302/lb-nginx:1.0
+    ports:
+      - 8080:8080
